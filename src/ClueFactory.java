@@ -1,10 +1,6 @@
 
 public class ClueFactory {
-	
-	public ClueFactory() {
-		
-	}
-	
+
 	public Suspect[] createSuspects() {
 		return new Suspect[] {
 				new Suspect("Miss Scarlett"),
@@ -15,7 +11,7 @@ public class ClueFactory {
 				new Suspect("Reverendo Green")
 		};
 	}
-	
+
 	public Weapon[] createWeapons() {
 		return new Weapon[]{
 	            new Weapon("corda"),
@@ -26,7 +22,7 @@ public class ClueFactory {
 	            new Weapon("rivoltella")
 	      };
 	}
-	
+
 	public Room[] createRooms() {
 		return new Room[] {
 				new Room("Sala da ballo"),
@@ -41,7 +37,7 @@ public class ClueFactory {
 				new Room("Cucina")
 		};
 	}
-	
-	
+
+
 
 }

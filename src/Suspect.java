@@ -1,8 +1,8 @@
-public class Player {
+public class Suspect {
 
 	private String name;
 
-	public Player(String name) {
+	public Suspect(String name) {
 		this.name = name;
 	}
 
